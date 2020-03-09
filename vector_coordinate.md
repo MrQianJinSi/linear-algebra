@@ -4,11 +4,11 @@
 
 ## 1 向量的坐标
 
-根据我们对向量空间基的定义，所有的向量都可以用基向量数乘后再相加来表示。假设$$\mathbf{R}^2$$的基向量为$$ \left \\{ \mathbf{e_1} \quad \mathbf{e_2}\right\\}$$，即对于任意的向量$$\mathbf{v}$$，都可以表示为
+根据我们对向量空间基的定义，所有的向量都可以用基向量数乘后再相加来表示。假设$$\mathbf{R}^2$$的基向量为$$ \left \{ \mathbf{e_1} \quad \mathbf{e_2}\right\}$$，即对于任意的向量$$\mathbf{v}$$，都可以表示为
 
-$$\mathbf{v} = x\*\mathbf{e_1}  + y \*\mathbf{e_2} $$
+$$\mathbf{v} = x*\mathbf{e_1} + y*\mathbf{e_2} $$
 
-此时，我们称**向量$$\mathbf{v} $$在基$$ \left \\{ \mathbf{e_1} \quad \mathbf{e_2}\right\\}$$下的坐标为$$ \begin{bmatrix} x & y \end{bmatrix}$$。**
+此时，我们称**向量$$\mathbf{v} $$在基$$ \left \{ \mathbf{e_1} \quad \mathbf{e_2}\right\}$$下的坐标为$$ \begin{bmatrix} x & y \end{bmatrix}$$。**
 
 接下来我们分析下图所示的向量$$\mathbf{v} $$在不同基下的坐标。
 
@@ -18,13 +18,14 @@ $$\mathbf{v} = x\*\mathbf{e_1}  + y \*\mathbf{e_2} $$
 
 其实，我们在使用向量空间之前，已经不自觉的用过基向量了。比如我们在《几何视角下的线性代数-序》那篇文章中，提到向量$$\mathbf{a} = \begin{bmatrix} 2 & 1 \end{bmatrix}$$，其实这就隐含着使用了下式所示的基向量：
 
-$$\mathbf{e_1} =  \begin{bmatrix} 1 & 0 \end{bmatrix} \quad
-
-\mathbf{e_2} =  \begin{bmatrix} 0 & 1 \end{bmatrix}$$
+$$
+\mathbf{e_1} =\begin{bmatrix} 1 & 0 \end{bmatrix} \quad
+\mathbf{e_2} =  \begin{bmatrix} 0 & 1 \end{bmatrix}
+$$
 
 显然，对于向量$$\mathbf{a}$$有
 
-$$\mathbf{a} = 2\*\mathbf{e_1}  + 1 \*\mathbf{e_2} $$
+$$\mathbf{a} = 2*\mathbf{e_1}  + 1*\mathbf{e_2} $$
 
 在这一组基表示下，$$\mathbf{v} $$的坐标为$$ \begin{bmatrix} 4 & 5 \end{bmatrix}$$。如下图所示：
 
@@ -41,7 +42,7 @@ $$
 
 在这组基下，向量$$\mathbf{v}$$可以表示为：
 
-$$\mathbf{v} = 2\*\mathbf{e_1}  + 1 \*\mathbf{e_2} $$
+$$\mathbf{v} = 2*\mathbf{e_1}  + 1*\mathbf{e_2} $$
 
 也就是说，在这组基下，向量$$\mathbf{v}$$的坐标为$$\begin{bmatrix} 2 & 1 \end{bmatrix}$$，如下图所示：
 
@@ -51,9 +52,10 @@ $$\mathbf{v} = 2\*\mathbf{e_1}  + 1 \*\mathbf{e_2} $$
 
 我们再来看第三组基向量：
 
-$$\mathbf{e_1} =  \begin{bmatrix} 1 & -1 \end{bmatrix} \quad
-
-\mathbf{e_2} =  \begin{bmatrix} -2 & -1 \end{bmatrix}$$
+$$
+\mathbf{e_1} =  \begin{bmatrix} 1 & -1 \end{bmatrix} \quad
+\mathbf{e_2} =  \begin{bmatrix} -2 & -1 \end{bmatrix}
+$$
 
 在这组基向量下，向量$$\mathbf{v}$$的坐标为$$\begin{bmatrix} -2 & -3 \end{bmatrix}$$，如下图所示：
 
