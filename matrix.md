@@ -55,13 +55,13 @@ $$
 这也不难，因为我们已经知道，向量$$\mathbf{v'}=-1* \mathbf{e_1'}+-2* \mathbf{e_2'}$$，而且还知道$$ \left \{ \mathbf{e_1'} \quad \mathbf{e_2'}\right\}$$在$$\mathbf{V}$$中的坐标，那么
 
 $$
-\begin{align*}
+\begin{align}
 \mathbf{v'} &=-1* \mathbf{e_1'}+\ -2* \mathbf{e_2'} \\
 & =-1 * \begin{bmatrix} 4 \\ 2\end{bmatrix}  + \ -2*\begin{bmatrix} -3 \\ 1\end{bmatrix} \\
 &= \begin{bmatrix} -1*4 \\ -1*2\end{bmatrix}  + \begin{bmatrix} -2*-3 \\ -2*1\end{bmatrix} \\
 &=\begin{bmatrix}-4\ +\ 6 \\ -2\ +\ -2\end{bmatrix} \\ 
 &=\begin{bmatrix} 2\\ -4\end{bmatrix}
-\end{align*}
+\end{align}
 $$
 
 由此，得到向量$$\mathbf{v'}$$在原向量空间$$\mathbf{V}$$的坐标为$$\begin{bmatrix} 2 \\ -4\end{bmatrix}$$
@@ -71,12 +71,12 @@ $$
 现在考虑$$\mathbf{V}$$中的任意一个向量$$ \mathbf{v}=\begin{bmatrix} x  \\y \end{bmatrix} $$，其经过线性变换的向量$$\mathbf{v'}$$在$$\mathbf{V}$$中的坐标也可以按照上述流程计算得到：
 
 $$
-\begin{align*}
+\begin{align}
 \mathbf{v'} &=x* \mathbf{e_1'}+y* \mathbf{e_2'} \\ 
 & =x * \begin{bmatrix} 4 \\ 2\end{bmatrix}  + y*\begin{bmatrix} -3 \\ 1\end{bmatrix} \\
 &= \begin{bmatrix} x*4 \\ x*2\end{bmatrix}  + \begin{bmatrix} y\ *\ -3 \\ y\ *\ 1\end{bmatrix} \\
 &=\begin{bmatrix} 4*x\ +\ -3*y \\  2*x\ +\ 1*y\end{bmatrix} 
-\end{align*}
+\end{align}
 $$
 
 可以看出，只要知道$$ \left \{ \mathbf{e_1'} \quad \mathbf{e_2'}\right\}$$的坐标，就能够按照上述流程求出$$\mathbf{v'}$$在$$\mathbf{V}$$中的坐标。
@@ -103,10 +103,10 @@ $$
 则$$\mathbf{M}$$和$$\mathbf{w}$$的乘法定义如下：
 
 $$
-\begin{align*}
+\begin{align}
 \mathbf{M}*\mathbf{w} &=\begin{bmatrix} a_{11}& a_{12} \\ a_{21}&a_{22} \end{bmatrix} *\begin{bmatrix} w_1 \\ w_2\end{bmatrix} \\
 &= \begin{bmatrix} a_{11}*w_1+a_{12}*w_2 \\ a_{21}*w_1+a_{22}*w_2\end{bmatrix}
-\end{align*}
+\end{align}
 $$
 
 大家可以和上面的坐标转换过程做个对照，就能发现这两者是完全一致的。
