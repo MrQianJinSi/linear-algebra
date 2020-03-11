@@ -6,3 +6,4 @@
 * [向量的坐标](vector_coordinate.md)
 * [线性变换](linear_transform.md)
 * [矩阵的由来](matrix.md)
+* [矩阵的运算](matrix_operations.md)
