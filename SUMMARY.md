@@ -7,3 +7,4 @@
 * [线性变换](linear_transform.md)
 * [矩阵的由来](matrix.md)
 * [矩阵的运算](matrix_operations.md)
+* [逆矩阵](inverse_matrix.md)
