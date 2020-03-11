@@ -10,3 +10,4 @@
 * [逆矩阵](inverse_matrix.md)
 * [行列式](determinant.md)
 * [行列式的应用](determinant_application.md)
+* [特征向量和特征值](eigenvector_and_eigenvalue.md)
