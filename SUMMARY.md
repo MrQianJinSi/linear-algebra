@@ -9,3 +9,4 @@
 * [矩阵的运算](matrix_operations.md)
 * [逆矩阵](inverse_matrix.md)
 * [行列式](determinant.md)
+* [行列式的应用](determinant_application.md)
