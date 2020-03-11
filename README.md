@@ -2,7 +2,9 @@
 
 受3blue1brown制作的[《线性代数的本质》](https://www.bilibili.com/video/av6731067)的启发，我发现人的大脑比较容易接受图形化的知识。所以我也想从几何的视角来重新描述一遍线性代数，命名为《几何视角下的线性代数》，希望能给大家带来一些新的收获。
 
-点击[《几何视角下的线性代数》](https://mrqianjinsi.gitbook.io/linear-algebra/)阅读。如果发现问题，欢迎提issue~
+点击[《几何视角下的线性代数》](https://mrqianjinsi.gitbook.io/linear-algebra/)阅读。
+
+如果发现问题或者有疑问，欢迎在GitHub上[提issue](https://github.com/MrQianJinSi/linear-algebra)~
 
 本书以前曾在我的公众号上发过，以后如果有更新，也会首先发在我的公众号上。欢迎大家关注：
 ![公众号二维码](pictures/wechat.jpeg)
